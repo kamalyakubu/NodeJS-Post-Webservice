@@ -102,7 +102,7 @@ app.delete("/posts/:id", async (req, res) => {
     }
   });
 
-//Connect to database
+//Connect to local database
 //OPTION 1
 // mongoose.connect('LOCAL_DB', () =>{
 //     console.log('Connected to database');
