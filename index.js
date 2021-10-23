@@ -15,7 +15,7 @@ const db = process.env.DB_URL;
 
 app.get("/", (req, res) => {
   return res.status(200).json({
-    message: "Welcome to the todo API.",
+    message: "Welcome to the Post API.",
   });
 });
 
